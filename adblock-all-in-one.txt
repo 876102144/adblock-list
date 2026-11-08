@@ -1,9 +1,8 @@
-﻿# BlockAds 一体化规则（拦截 + 放行）
-# 生成: 2026-11-08 21:46
-# 结构: 前 22 条 @@ 放行，后 72 条拦截
-# 说明: @@ 规则为例外，优先级高于拦截规则
+﻿# BlockAds 一体化规则（放行 + 拦截）
+# 生成: 2026-11-08 22:02
+# 结构: 22 条 @@ 放行，122 条拦截
 
-# ===== 放行（系统服务 / 登录 / 定位 / DNS / 内容 CDN） =====
+# ===== 放行 =====
 @@||metok.sys.miui.com^
 @@||api.sec.miui.com^
 @@||data.sec.miui.com^
@@ -27,9 +26,10 @@
 @@||dns.alidns.com^
 @@||doh.pub^
 
-# ===== 拦截（广告 / 埋点 / 统计） =====
+# ===== 拦截 =====
 ||activity-ag.awemeughun.com^
 ||ad.toutiao.com^
+||adash-emas.cn-hangzhou.aliyuncs.com^
 ||ads-vp5.xhscdn.com^
 ||ads3-normal-hl.zijieapi.com^
 ||ads3-normal-lf.zijieapi.com^
@@ -37,32 +37,67 @@
 ||ads5-normal-hl.zijieapi.com^
 ||ads5-normal-lf.zijieapi.com^
 ||ads5-normal-lq.zijieapi.com^
+||adukwai.com^
 ||aeventlog.beacon.qq.com^
+||afdconf.baidu.com^
+||analytics.map.qq.com^
+||api-access.pangolin-sdk-toutiao-b.com^
 ||api-access.pangolin-sdk-toutiao.com^
 ||api-access.pangolin-sdk-toutiao1.com^
+||api.ad.xiaomi.com^
 ||api.iegadp.qq.com^
 ||apm-native.xiaohongshu.com^
+||apmplus.volces.com^
+||beacon-api.aliyuncs.com^
+||beacon.qq.com^
+||c4c3f5.com^
 ||cnlogs.umeng.com^
+||cpro.baidustatic.com^
+||ctobsnssdk.com^
 ||dig.bdurl.net^
+||dm.toutiao.com^
 ||errnewlog.umeng.com^
+||fancyapi.com^
+||fancydsp.com^
+||feedback-c.zijieapi.com^
+||frontier-aweme.snssdk.com^
+||frontier100-toutiao-lq.fqnovel.com^
+||gdt.qq.com^
+||h.trace.qq.com^
+||heytapmobi.com^
+||i-lq.snssdk.com^
 ||jomoxc.com^
+||jspcdn.cn^
 ||l2-toutiao-quic-ipv6-ml.gslb.ksyuncdn.com^
 ||lng.xiaohongshu.com^
 ||log-api.pangolin-sdk-toutiao.com^
+||log.snssdk.com^
+||log0-misc-hl.amemv.com^
 ||log3-applog-lf.fqnovel.com^
 ||log5-applog-hl.fqnovel.com^
 ||log5-applog-lf.fqnovel.com^
+||log5-applog-lq.fqnovel.com^
+||metricslinks.com^
+||miaozhen.com^
 ||minigame3-normal-hl.zijieapi.com^
 ||minigame3-normal-lf.zijieapi.com^
 ||minigame3-normal-lq.zijieapi.com^
 ||minigame5-normal-hl.zijieapi.com^
 ||minigame5-normal-lf.zijieapi.com^
 ||minigame5-normal-lq.zijieapi.com^
+||mobads.baidu.com^
+||mon.snssdk.com^
+||mon.zijieapi.com^
 ||mon11-misc-hl.fqnovel.com^
 ||mon11-misc-lf.fqnovel.com^
+||mon11-misc-lq.fqnovel.com^
 ||mon3-misc-lf.fqnovel.com^
+||monsetting.toutiao.com^
 ||msync-im1-vip6-std.easemob.com^
 ||ndcpp.com^
+||om.tracking.miui.com^
+||open.e.kuaishou.cn^
+||open.e.kuaishou.com^
 ||ossnt-errlog.umeng.com^
 ||p3-ad-sign.byteimg.com^
 ||p6-ad-sign.byteimg.com^
@@ -70,21 +105,34 @@
 ||pangle.io^
 ||pangolin-sdk-toutiao.com^
 ||pglstatp-toutiao.com^
+||polaris5-normal-lq.zijieapi.com^
 ||praisewindow.ugsdk.cn^
+||puata.info^
 ||qrstuvwxyzab.com^
+||qzs.gdtimg.com^
+||rmonitor.qq.com^
 ||rtlog3-applog-hl.fqnovel.com^
 ||rtlog3-applog-lf.fqnovel.com^
 ||rtlog5-applog-hl.fqnovel.com^
 ||rtlog5-applog-lf.fqnovel.com^
+||saveu5-normal-lq.zijieapi.com^
+||sdk.e.qq.com^
 ||sdktt.data.comfylink.com^
+||sensorsdata.cn^
 ||sf3-ttcdn-tos.pstatp.com^
 ||spider-tracker.xiaohongshu.com^
+||statisticslinks.com^
+||timon.zijieapi.com^
 ||tnc0-aliec2.zijieapi.com^
 ||tnc0-alisc1.zijieapi.com^
 ||tnc3-aliec2.zijieapi.com^
+||tnc3-alisc1.bytedance.com^
 ||tnc3-alisc1.zijieapi.com^
 ||tracker.xiaomixiaoai.com^
+||tracking.miui.com^
+||ugsdk.cn^
 ||ulogs.umeng.com^
+||umeng.com^
 ||v11-reading-ad.qznovelvod.com^
 ||v13-reading-ad.qznovelvod.com^
 ||v26-reading-ad.qznovelvod.com^
@@ -94,6 +142,7 @@
 ||v6-reading-ad.qznovelvod.com^
 ||v9-reading-ad.qznovelvod.com^
 ||v96-reading-ad.qznovelvod.com^
+||vcs.zijieapi.com^
 ||webcast5-open-hl.douyin.com.c.dsa.cdnbuild.net^
 ||webcast5-open-hl.douyin.com^
 ||wmzfylgdsz.com^
