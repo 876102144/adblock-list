@@ -1,0 +1,25 @@
+﻿# BlockAds 自定义规则 —— 白名单（AdGuard 语法，@@ 开头为放行）
+# 位置：BlockAds → 设置 → 自定义规则 / 用户规则；或「已加入白名单的域名」逐条填
+
+@@||metok.sys.miui.com^
+@@||api.sec.miui.com^
+@@||data.sec.miui.com^
+@@||auth.be.sec.miui.com^
+@@||adv.sec.miui.com^
+@@||logupdate.avlyun.sec.miui.com^
+@@||mcc.inf.miui.com^
+@@||r.browser.miui.com^
+@@||cgicol.amap.com^
+@@||loc.map.baidu.com^
+@@||api.map.baidu.com^
+@@||mshield.baidu.com^
+@@||apd-pcdnwxlogin.teg.tencent-cloud.net^
+@@||snowflake.qq.com^
+@@||id6.me^
+@@||baidu.com^
+@@||www.baidu.com^
+@@||n98-v-readingvideo.qznovelvod.com^
+@@||v5-gzb2-gddgtc-reading-video.qznovelvod.com^
+@@||v5-gzb-jltc-reading-video.qznovelvod.com^
+@@||dns.alidns.com^
+@@||doh.pub^
