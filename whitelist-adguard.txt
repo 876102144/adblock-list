@@ -1,5 +1,6 @@
-﻿# BlockAds 自定义规则 —— 白名单（AdGuard 语法，@@ 开头为放行）
-# 位置：BlockAds → 设置 → 自定义规则 / 用户规则；或「已加入白名单的域名」逐条填
+# BlockAds 白名单（AdGuard 语法，@@ = 放行）
+# 生成: 2026-11-09 20:51   规则数: 57
+# 作用: 保护系统/支付/登录/视频调度与 CDN 链路不被任何上游规则误伤
 
 @@||metok.sys.miui.com^
 @@||api.sec.miui.com^
@@ -9,17 +10,52 @@
 @@||logupdate.avlyun.sec.miui.com^
 @@||mcc.inf.miui.com^
 @@||r.browser.miui.com^
+@@||micloud.xiaomi.net^
 @@||cgicol.amap.com^
 @@||loc.map.baidu.com^
 @@||api.map.baidu.com^
 @@||mshield.baidu.com^
+@@||www.baidu.com^
+@@||m.baidu.com^
 @@||apd-pcdnwxlogin.teg.tencent-cloud.net^
 @@||snowflake.qq.com^
 @@||id6.me^
-@@||baidu.com^
-@@||www.baidu.com^
-@@||n98-v-readingvideo.qznovelvod.com^
-@@||v5-gzb2-gddgtc-reading-video.qznovelvod.com^
-@@||v5-gzb-jltc-reading-video.qznovelvod.com^
 @@||dns.alidns.com^
 @@||doh.pub^
+@@||dns.weixin.qq.com.cn^
+@@||sipcd05.xnq.r.10086.cn^
+@@||tnc0-aliec2.zijieapi.com^
+@@||tnc0-alisc1.zijieapi.com^
+@@||tnc3-aliec2.zijieapi.com^
+@@||tnc3-alisc1.zijieapi.com^
+@@||tnc3-alisc1.bytedance.com^
+@@||frontier-aweme.snssdk.com^
+@@||frontier100-toutiao-lq.fqnovel.com^
+@@||vcs.zijieapi.com^
+@@||polaris5-normal-lq.zijieapi.com^
+@@||saveu5-normal-lq.zijieapi.com^
+@@||i-lq.snssdk.com^
+@@||mp6-normal-lq.zijieapi.com^
+@@||n98-v-readingvideo.qznovelvod.com^
+@@||v5-gzb2-gddgtc-reading-video.qznovelvod.com^
+@@||v5-gzb2-bjtc-reading-video.qznovelvod.com^
+@@||v5-gzb-jltc-reading-video.qznovelvod.com^
+@@||p11.douyinpic.com^
+@@||p3-sign.douyinpic.com^
+@@||p26-sign.douyinpic.com^
+@@||p3-novel.byteimg.com^
+@@||p3-novel-sign.byteimg.com^
+@@||p6-novel.byteimg.com^
+@@||p6-novel-sign.byteimg.com^
+@@||p9-novel-sign.byteimg.com^
+@@||lf3-reading.fqnovelpic.com^
+@@||p3-ad-sign.byteimg.com^
+@@||p6-ad-sign.byteimg.com^
+@@||p9-ad-sign.byteimg.com^
+@@||imapi-oth.zijieapi.com^
+@@||im-open.douyin.com^
+@@||webcast5-open-lq.douyin.com^
+@@||webcast5-open-hl.douyin.com^
+@@||api5-normal-lq.fqnovel.com^
+@@||whoami.akamai.net^
+@@||ndcpp.com^

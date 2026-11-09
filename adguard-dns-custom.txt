@@ -1,7 +1,6 @@
-﻿# BlockAds 拦截列表（含埋点/统计）— 本地维护
-# 生成: 2026-11-08 22:02
-# 基于 abclq/home-dns-adblock + 真实设备日志补全
-# 规则数: 122
+# BlockAds 拦截列表（广告投放 / 埋点统计）— v3
+# 生成: 2026-11-09 20:51   规则数: 105
+# 说明: 已移除 tnc/frontier/vcs/ndcpp/ad-sign 等会破坏视频播放的误拦项
 
 ||activity-ag.awemeughun.com^
 ||ad.toutiao.com^
@@ -36,12 +35,9 @@
 ||fancyapi.com^
 ||fancydsp.com^
 ||feedback-c.zijieapi.com^
-||frontier-aweme.snssdk.com^
-||frontier100-toutiao-lq.fqnovel.com^
 ||gdt.qq.com^
 ||h.trace.qq.com^
 ||heytapmobi.com^
-||i-lq.snssdk.com^
 ||jomoxc.com^
 ||jspcdn.cn^
 ||l2-toutiao-quic-ipv6-ml.gslb.ksyuncdn.com^
@@ -70,18 +66,13 @@
 ||mon3-misc-lf.fqnovel.com^
 ||monsetting.toutiao.com^
 ||msync-im1-vip6-std.easemob.com^
-||ndcpp.com^
 ||om.tracking.miui.com^
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
 ||ossnt-errlog.umeng.com^
-||p3-ad-sign.byteimg.com^
-||p6-ad-sign.byteimg.com^
-||p9-ad-sign.byteimg.com^
 ||pangle.io^
 ||pangolin-sdk-toutiao.com^
 ||pglstatp-toutiao.com^
-||polaris5-normal-lq.zijieapi.com^
 ||praisewindow.ugsdk.cn^
 ||puata.info^
 ||qrstuvwxyzab.com^
@@ -91,7 +82,6 @@
 ||rtlog3-applog-lf.fqnovel.com^
 ||rtlog5-applog-hl.fqnovel.com^
 ||rtlog5-applog-lf.fqnovel.com^
-||saveu5-normal-lq.zijieapi.com^
 ||sdk.e.qq.com^
 ||sdktt.data.comfylink.com^
 ||sensorsdata.cn^
@@ -99,11 +89,6 @@
 ||spider-tracker.xiaohongshu.com^
 ||statisticslinks.com^
 ||timon.zijieapi.com^
-||tnc0-aliec2.zijieapi.com^
-||tnc0-alisc1.zijieapi.com^
-||tnc3-aliec2.zijieapi.com^
-||tnc3-alisc1.bytedance.com^
-||tnc3-alisc1.zijieapi.com^
 ||tracker.xiaomixiaoai.com^
 ||tracking.miui.com^
 ||ugsdk.cn^
@@ -118,9 +103,6 @@
 ||v6-reading-ad.qznovelvod.com^
 ||v9-reading-ad.qznovelvod.com^
 ||v96-reading-ad.qznovelvod.com^
-||vcs.zijieapi.com^
-||webcast5-open-hl.douyin.com.c.dsa.cdnbuild.net^
-||webcast5-open-hl.douyin.com^
 ||wmzfylgdsz.com^
 ||wuchuyun.com^
 ||xinqiucc.com^
